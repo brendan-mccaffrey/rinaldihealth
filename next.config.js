@@ -10,7 +10,7 @@ let basePath = ``
 if (isGithubActions) {
   repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
-  assetPrefix = `/rinaldi.health/`
+  assetPrefix = `/`
   basePath = ``
 }
 
