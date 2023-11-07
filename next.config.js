@@ -11,7 +11,7 @@ if (isGithubActions) {
   repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
   assetPrefix = `/rinaldi.health/`
-  basePath = `/`
+  basePath = ``
 }
 
 const nextConfig = {
