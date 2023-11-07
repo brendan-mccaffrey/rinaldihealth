@@ -3,9 +3,9 @@
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
-const repo = 'rinaldihealth'
-const assetPrefix = `/${repo}/`
-const basePath = `/${repo}`
+// const repo = 'rinaldihealth'
+// const assetPrefix = `/${repo}/`
+// const basePath = `/${repo}`
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
