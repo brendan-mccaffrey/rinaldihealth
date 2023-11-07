@@ -7,12 +7,12 @@ let repo = ''
 let assetPrefix = ``
 let basePath = ``
 
-if (isGithubActions) {
-  repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+// if (isGithubActions) {
+//   repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
-  assetPrefix = `/${repo}/`
-  basePath = `/${repo}`
-}
+//   assetPrefix = `/${repo}/`
+//   basePath = `/${repo}`
+// }
 
 const nextConfig = {
   output: 'export',
