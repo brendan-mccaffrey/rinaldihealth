@@ -15,13 +15,19 @@ export default function About() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
-    >
+      id="about">
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        While pursuing a degree in <span className="font-medium">Nursing</span>{" "}
+        at The Ohio State University, I served in Detachment 645 of the U.S. Air
+        Force ROTC. Upon graduation, I look to pursue my passion for care
+        specializing in Intesive Care Units.
+      </p>
+
+      <p className="mb-3">Blah blah TODO *add more stuff here*</p>
+
+      {/* <p className="mb-3">
+        {" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -43,7 +49,7 @@ export default function About() {
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
-      </p>
+      </p> */}
     </motion.section>
   );
 }
