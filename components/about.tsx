@@ -24,7 +24,7 @@ export default function About() {
         specializing in Intesive Care Units.
       </p>
 
-      <p className="mb-3">Blah blah TODO *add more stuff here*</p>
+      {/* <p className="mb-3">Blah blah TODO *add more stuff here*</p> */}
 
       {/* <p className="mb-3">
         {" "}

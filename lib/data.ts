@@ -19,14 +19,14 @@ export const links = [
   //     name: "Projects",
   //     hash: "#projects",
   //   },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  //   {
+  //     name: "Skills",
+  //     hash: "#skills",
+  //   },
+  //   {
+  //     name: "Experience",
+  //     hash: "#experience",
+  //   },
   {
     name: "Contact",
     hash: "#contact",
